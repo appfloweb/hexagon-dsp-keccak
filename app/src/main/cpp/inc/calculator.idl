@@ -1,0 +1,9 @@
+#include "AEEStdDef.idl"
+#include "remote.idl"
+
+interface calculator : remote_handle64{
+   long keccak512_40_64(in sequence<uint8> in_bytes, inrout sequence<uint8> out_bytes);
+   long keccak512_40_96(in sequence<uint8> in_bytes, inrout sequence<uint8> out_bytes);
+   long keccak512_64_64(in sequence<uint8> in_bytes, inrout sequence<uint8> out_bytes);
+   long keccak256_96_32(in sequence<uint8> in_bytes, inrout sequence<uint8> out_bytes);
+};
