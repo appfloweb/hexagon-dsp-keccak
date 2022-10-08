@@ -51,7 +51,7 @@ Each group of input data is 96 bytes, the output data length is 32 bytes, a tota
 2. Command line run **setup\_sdk\_env.cmd**
 3. Command line switch to the **dsp** directory, run
 
-		make hexagon build = release dsp_arch = v66
+		make hexagon BUILD=Release DSP_ARCH=v66
 
 4. Connect to the mobile phone, the **libcalculator_skel.so** file push to the mobile phone directory
 	    
@@ -119,7 +119,8 @@ Qualcomm Hexagon Compute DSP (cDSP)是高通平台上专门用来做通用计算
 2.命令行运行**setup\_sdk\_env.cmd**
 
 3.命令行切换到**dsp**目录，运行
-make hexagon BUILD=Release DSP_ARCH=v66
+
+    make hexagon BUILD=Release DSP_ARCH=v66
 
 4.连接手机，将生成的libcalculator_skel.so文件push到手机
 
