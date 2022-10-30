@@ -30,7 +30,7 @@ Each group of input data is 96 bytes, the output data length is 32 bytes, a tota
 
     keccak256_96_32
 
-# Use directly #
+# Run directly #
 
 1. Connect to the phone, push dsp/hexagon_release_toolv84_v66/ship/libcalculator_skel.so to the mobile phone directory
 
@@ -99,7 +99,7 @@ Qualcomm Hexagon Compute DSP (cDSP)是高通平台上专门用来做通用计算
     keccak256_96_32
 
 
-# 直接使用 #
+# 直接运行 #
 
 1.连接手机，将dsp/hexagon_Release_toolv84_v66/ship/libcalculator_skel.so文件push到手机
 
